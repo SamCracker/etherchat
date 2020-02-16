@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Decentralized messaging on Ethereum network",
   "main": "index.js",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
     "test": "mocha",
     "dev": "next dev -p 3213",
